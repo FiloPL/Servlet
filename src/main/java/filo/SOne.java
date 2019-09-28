@@ -16,11 +16,6 @@ public class SOne extends HttpServlet {
 
         /*
         resp.getWriter().println("servlet2");
-        for (Cookie cookie : req.getCookies()) {
-            if (cookie.getName().equals("ciasteczko"));     {
-                resp.getWriter().println(cookie.getValue());
-            }
-        }
         resp.getWriter().println(req.getSession().getAttribute("paramFromSession"));
         */
         Object importValue = req.getSession().getAttribute(USERNAME_KEY);
